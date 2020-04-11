@@ -1,24 +1,6 @@
-Bom dia!
+<h1> Mithril js </h1>
 
-Esse teste foi feito pensando em modificações rotineiras na plataforma da Incentiv.
-Utilizamos no frontend um framework chamado "MitrhilJS" e a programação inicial desse teste foi feita baseada no código disponível no site do framework.
-A ideia do teste é entender como você raciocina logicamente na hora de desenvolver.
-Lembre-se a lógica do desenvolvimento é mais importante do que a tarefa executada. 
+Framework simples e rapido.
 
-Para este teste, serão necessárias algumas modificações no código, são elas:
-
-//1. Adicionar 3 novos campos para cadastro dos usuários (email, telefone e valor do incentivo); // adicionar inputs:email, telefone e valor R$
-//2. Adicionar um novo campo tendo 3 opções para o usuário - Incentivador, Empresa, Proponente; // select 3 opcoes
-//3. Adicionar um novo menu e dentro desse menu mostrar separadamente cada tipo de usuário; // listar usuarios por categorias
-//4. Ao abrir novo menu dos usuários separados pelo tipo, criar uma tela de "loading" que espera 3 segundos e depois mostra a página; // timeout 3000 e loading
-//5. Se possível, criar máscara para o campo "email" aceitando somente emails que possuam xxxx@xxxx.xxx, sendo xxx qualquer sequência de characteres (não se apeguem a detalhes como acentos e caractéres especiais para o teste);
-/6. Se possível, criar uma máscara para o campo "valor do incentivo" permitindo o usuário digitar números e o formato no frontend fique "###.###,##", mas salve como "######.##";
-//7. Dar feedbacks para os usuários quando você considerar necessário. // alertas
-
-Para executar o teste é necessária a instalação do NPM (Node Package Manager), entrar no pasta principal do teste e executar em um terminal o comando:
-
-npm start
-
-Após a execução, abrir o index.html em um navegador. (https://mithril.js.org/installation.html instalação do pacote MitrhilJS por completa)
-
-Obs: Use sua criatividade à vontade na construção e modificação das telas.
+Simples app de listagem de usuarios consumindo API externa, recursos de editar, organizar por categoria, 
+efeito de loading e outros detalhes
